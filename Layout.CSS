@@ -1,0 +1,39 @@
+/* Body Element */
+body {
+    background-color:rgb(235, 226, 147);
+}
+
+div {
+    border: 1px black;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: auto;
+
+}
+
+img{
+border:1px lightgrey;
+height: 10vh;
+box-shadow: 0px 0px 0px gray;
+transition-property: box-shadow;
+transition-duration: 300ms;
+transition-timing-function: linear;
+}
+
+img:hover{
+    box-shadow: 5px 5px 5px gray;
+}
+
+
+.thumbnail {
+    width: 5vw;
+    border: 2px;
+    border-radius: 2px;
+}
+
+.h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
